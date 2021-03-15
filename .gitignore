@@ -1,0 +1,4 @@
+/vendor/
+
+# Ignore test generated SVG's
+/tests/*.svg

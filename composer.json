@@ -1,0 +1,27 @@
+{
+  "name": "mressex/feather-icons",
+  "authors": [
+    {
+      "name": "Kyle Essex",
+      "email": "kylegavinessex@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-dom": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3.8"
+  },
+  "description": "",
+  "autoload": {
+    "psr-4": {
+      "MrEssex\\FeatherIcons\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MrEssex\\FeatherIcons\\Test\\": "tests"
+    }
+  }
+}
